@@ -1,0 +1,116 @@
+@import url(https://fonts.googleapis.com/css?family=Lora:400,700|Roboto:300,400,500,700,900);
+@import url(https://use.fontawesome.com/releases/v5.2.0/css/all.css);
+
+/* Colors and fonts */
+body {
+  background: #f4f6f6;
+  color: #cd3f3e;
+  font-family: 'Lora', serif;
+  font-size: 17px;
+  font-weight: lighter;
+  text-align: center;
+}
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+}
+h1 {
+  color: #cd3f3e;
+  font-size: 32px;
+  font-weight: 900;
+}
+h2 {
+  color: #cd3f3e;
+  font-size: 18px;
+  font-weight: lighter;
+  font-weight: 500;
+}
+a {
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+a:hover {
+  color: #ff9c91;
+}
+
+/* Container */
+.container {
+  width: 500px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+/* Resizing */
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+
+.card-white {
+  background-color: #f4f6f6;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+}
+.img-circle {
+  border-radius: 60%;
+}
+
+.btn-blue {
+  background-color: #6B72E1;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+.btn-blue:hover {
+  background-color: #ff9c91;
+  color: white;
+}
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+.list-inline i {
+  font-size: 50px;
+  color: rgb(230, 230, 230);
+}
+.list-inline i:hover {
+  color: #ff9c91;
+}
+
+/* Design adjustments using id (1% design remaining) */
+#introduction p {
+  margin-bottom: 40px;
+}
